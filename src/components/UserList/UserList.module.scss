@@ -1,0 +1,21 @@
+.container {
+  min-width: 100%;
+  min-height: 50vh;
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loadButton {
+  cursor: pointer;
+  background: rgba(125, 125, 180, 0.5);
+  border: solid 2px gray;
+  border-radius: 4px;
+  padding: 5px;
+  box-sizing: border-box;
+
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+}

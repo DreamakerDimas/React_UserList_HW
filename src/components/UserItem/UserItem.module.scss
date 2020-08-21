@@ -1,0 +1,32 @@
+.userItemContainer {
+  min-height: 100px;
+  min-width: 300px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 15px auto;
+  box-sizing: border-box;
+}
+
+.userAvatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px white solid;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.userAvatar > img {
+  width: 100%;
+}
+
+.active {
+  border: royalblue 3px solid;
+  background: rgba(0, 0, 220, 0.2);
+}
